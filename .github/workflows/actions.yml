@@ -3,6 +3,7 @@ name: 03 - Python Script Workflow
 on:
   schedule:
   - cron: "* * * * *" # Runs at 7 pm pacific
+  workflow-dispatch:
 
 jobs:
   build:
