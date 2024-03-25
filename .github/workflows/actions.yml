@@ -2,7 +2,7 @@ name: py
 
 on:
   schedule:
-    - cron: "15 2 * * *"  
+    - cron: "* * * * *"  
   workflow_dispatch:
     inputs:
       branch:
@@ -15,6 +15,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Debug Message
+        run: echo "Workflow triggered at $(date)"
+
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content to github runner.
       - name: setup python
