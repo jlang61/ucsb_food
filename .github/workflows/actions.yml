@@ -2,7 +2,7 @@ name: py
 
 on:
   schedule:
-    - cron: "12 2 * * *"  
+    - cron: "15 2 * * *"  
   workflow_dispatch:
     inputs:
       branch:
