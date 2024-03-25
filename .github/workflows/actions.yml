@@ -2,7 +2,13 @@ name: py
 
 on:
   schedule:
-    - cron: "12 2 * * *"  # Runs at 11:30 UTC everyday
+    - cron: "12 2 * * *"  
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Run tests on branch'
+        required: true
+        default: 'main'
 
 jobs:
   build:
