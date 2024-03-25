@@ -9,6 +9,8 @@ html = page.read()
 # Parse the HTML content
 soup = BeautifulSoup(html, 'html.parser')
 
+
+print(soup)
 # Find the dining hall information
 dining_hall_info = soup.find('div', class_='alert alert-danger').h5.text
 
