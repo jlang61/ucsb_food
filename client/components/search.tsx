@@ -12,19 +12,40 @@ export default function Search() {
     console.log("passed in", food);
 
     diningMenu.forEach((hall: any) => {
-      hall.meals.forEach((meal: any) => {
-        if (meal.toLowerCase().includes(food.toLowerCase())) {
-          if (!availableHalls.includes(hall.name)){
-            availableHalls.push(hall.name);
+      if (hall.Breakfast) {
+        hall.Breakfast.forEach((meal: any) => {
+          console.log(meal);
+          if (meal.toLowerCase().includes(food.toLowerCase())) {
+            if (!availableHalls.includes(hall.name + " Breakfast")) {
+              availableHalls.push(hall.name + " Breakfast");
+            }
           }
-          console.log('worked with', meal)
-        }
-        console.log("checking meal:", meal);
-      });
+        });
+      }
+      if (hall.Lunch) {
+        hall.Lunch.forEach((meal: any) => {
+          console.log(meal);
+          if (meal.toLowerCase().includes(food.toLowerCase())) {
+            if (!availableHalls.includes(hall.name + " Lunch")) {
+              availableHalls.push(hall.name + " Lunch");
+            }
+          }
+        });
+      }
+      if (hall.Dinner) {
+        hall.Dinner.forEach((meal: any) => {
+          console.log(meal);
+          if (meal.toLowerCase().includes(food.toLowerCase())) {
+            if (!availableHalls.includes(hall.name + " Dinner")) {
+              availableHalls.push(hall.name + " Dinner");
+            }
+          }
+        });
+      }
+
       //   if (hall.meals.includes(food)) {
       //     availableHalls.push(hall.name);
       //   }
-      console.log(availableHalls)
     });
 
     return availableHalls;
@@ -49,11 +70,11 @@ export default function Search() {
           type="search"
           name="searchQuery"
         />
-        <Button className="shrink-0" type="submit">
+        {/* <Button className="shrink-0" type="submit">
           Search
-        </Button>
+        </Button> */}
       </form>
-      <div>
+      <div className="mt-10 text-center">
         {availableHalls.length > 0 && (
           <ul>
             {availableHalls.map((hall) => (
