@@ -20,5 +20,4 @@ const diningMenu = [
 "Baked Sweet Potato ", "Brown Rice ", "Corn Chowder ", "Grilled BBQ Chicken Pizza", "Bolognese Sauce with Pancetta", "Farfalle Pasta ", "Creamy Rosemary Sauce ", "Fettuccine Pasta ", "Organic Sugar Snap Pea", "Ginger Sesame Tofu ", "Couscous ", "Killer Brownie (w/nuts) ", "Whole Wheat French Bread ", "Tacos Al Pastor", "Radish and Jalapeno Slaw ", "Fire Roasted Tomato Chipotle Salsa ", "Refried Beans ", "Lettuce/Cheese/Tomatoes ", "Vindaloo Chicken", "Basmati Rice ", "Indian Style Stew w/ButternutSquash", "Steamed Broccoli & Cauliflower ", "California Club Roll", ]
 },
 ]
-
 export default diningMenu
