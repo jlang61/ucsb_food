@@ -2,7 +2,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 # Fetch HTML content from the URL
-# url = "https://apps.dining.ucsb.edu/menu/day?dc=carrillo&dc=de-la-guerra&dc=ortega&dc=portola&d=2024-03-31&m=breakfast&m=brunch&m=lunch&m=dinner&m=late-night&food="
+# url = "https://apps.dining.ucsb.edu/menu/day?dc=carrillo&dc=de-la-guerra&dc=ortega&dc=portola&d=2024-04-01&m=breakfast&m=brunch&m=lunch&m=dinner&m=late-night&food="
 url = "https://apps.dining.ucsb.edu/menu/day"
 page = urlopen(url)
 html = page.read()
@@ -27,7 +27,7 @@ entrees = soup.find_all('dd')
 
 
 soup = BeautifulSoup(html, 'html.parser')
-
+# print(soup)
 # Find all sections corresponding to dining areas
 sections = soup.find_all(class_='collapse in')
 print("const diningMenu = [")
@@ -47,29 +47,21 @@ for section in sections:
         # Extract the meal information
 
             meal_time = meal.text.strip()
-            if meal_time[0] == 'D':
-                meal_time = "Dinner"
-            elif meal_time[0] == 'B':
+            if meal_time.startswith("Breakfast"):
+                meal_time = "Breakfast"
+            elif meal_time.startswith("Brunch"):
                 meal_time = "Brunch"
+            elif meal_time.startswith("Lunch"):
+                meal_time = "Lunch"
+            elif meal_time.startswith("Dinner"):
+                meal_time = "Dinner"
             meal_info = section.find(class_='panel-body')
-            if meal_info:
-                meal_name = meal_info.find_previous(class_='panel-heading').text.strip()
-                # print("Meal:", meal_name)
-                
-                # Extract the menu items
-                menu_items = meal_info.find_all('dl')
-                print("\""+meal_time+"\":["),
-                for item in menu_items:
-                    category = item.find('dt').text.strip()
-                    # print("Category:", category)
-                    items = item.find_all('dd')
-                    for item_text in items:
-                        strip_text = item_text.text.strip()
-                        corrected_text = strip_text
-                        for take_out in ["(vgn)", "(v)"]:
-                            corrected_text = corrected_text.replace(take_out,"")
-                        print("\"" + corrected_text + "\", ", end = ""),
-                print("],")
+            menu_items = meal.find_next_sibling(class_='panel-body').find_all('dd')
+            print("\"" + meal_time + "\":["),
+            for item in menu_items:
+                corrected_text = item.text.strip().replace("(vgn)", "").replace("(v)", "").strip()
+                print("\"" + corrected_text + "\", ", end=""),
+            print("],")
         print("},")
 print("]")
 

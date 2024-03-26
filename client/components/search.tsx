@@ -9,35 +9,46 @@ export default function Search() {
 
   function isFoodAvailable(food: string): string[] {
     const availableHalls: string[] = [];
-    console.log("passed in", food);
+    // console.log("passed in", food);
 
     diningMenu.forEach((hall: any) => {
       if (hall.Breakfast) {
         hall.Breakfast.forEach((meal: any) => {
-          console.log(meal);
+          // console.log(meal);
           if (meal.toLowerCase().includes(food.toLowerCase())) {
-            if (!availableHalls.includes(hall.name + " Breakfast")) {
-              availableHalls.push(hall.name + " Breakfast");
+            if (!availableHalls.includes(hall.name + "'s Breakfast " + meal)) {
+              availableHalls.push(hall.name + "'s Breakfast " + meal);
             }
           }
         });
       }
+      if (hall.Brunch) {
+        hall.Brunch.forEach((meal: any) => {
+          // console.log(meal);
+          if (meal.toLowerCase().includes(food.toLowerCase())) {
+            if (!availableHalls.includes(hall.name + "'s Brunch " + meal)) {
+              availableHalls.push(hall.name + "'s Brunch " + meal);
+            }
+          }
+        });
+      }
+
       if (hall.Lunch) {
         hall.Lunch.forEach((meal: any) => {
-          console.log(meal);
+          // console.log(meal);
           if (meal.toLowerCase().includes(food.toLowerCase())) {
-            if (!availableHalls.includes(hall.name + " Lunch")) {
-              availableHalls.push(hall.name + " Lunch");
+            if (!availableHalls.includes(hall.name + "'s Lunch: " + meal)) {
+              availableHalls.push(hall.name + "'s Lunch: " + meal);
             }
           }
         });
       }
       if (hall.Dinner) {
         hall.Dinner.forEach((meal: any) => {
-          console.log(meal);
+          // console.log(meal);
           if (meal.toLowerCase().includes(food.toLowerCase())) {
-            if (!availableHalls.includes(hall.name + " Dinner")) {
-              availableHalls.push(hall.name + " Dinner");
+            if (!availableHalls.includes(hall.name + "'s Dinner " + meal)) {
+              availableHalls.push(hall.name + "'s Dinner " + meal);
             }
           }
         });
@@ -47,12 +58,12 @@ export default function Search() {
       //     availableHalls.push(hall.name);
       //   }
     });
-
+    console.log(availableHalls)
     return availableHalls;
   }
   function handleSubmit(event: React.FormEvent<HTMLFormElement>): void {
     event.preventDefault();
-    console.log(event);
+    // console.log(event);
     const formData = new FormData(event.currentTarget);
     const food = formData.get("searchQuery") as string;
     const halls = isFoodAvailable(food);
