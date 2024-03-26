@@ -34,7 +34,7 @@ jobs:
       - name: Execute Python script
         run: |
           python_script="main.py"
-          python "$python_script" > foodData.ts
+          python "$python_script" > client/data/foodData.ts
 
       - name: Configure Git
         run: |
@@ -42,7 +42,7 @@ jobs:
           git config --global user.name "Justin Lang"
 
       - name: Add changes
-        run: git add foodData.ts
+        run: git add client/data/foodData.ts
 
       - name: Commit changes
         run: |

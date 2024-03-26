@@ -63,3 +63,5 @@ for section in sections:
             print("No meal information available")
         print("},")
 print("]")
+
+print("export default diningMenu")
