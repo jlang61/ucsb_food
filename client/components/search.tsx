@@ -11,8 +11,8 @@ export default function Search() {
     const availableHalls: string[] = [];
     console.log("passed in", food);
 
-    diningMenu.forEach((hall) => {
-      hall.meals.forEach((meal) => {
+    diningMenu.forEach((hall: any) => {
+      hall.meals.forEach((meal: any) => {
         if (meal.toLowerCase().includes(food.toLowerCase())) {
           if (!availableHalls.includes(hall.name)){
             availableHalls.push(hall.name);
