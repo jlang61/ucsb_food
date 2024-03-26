@@ -2,7 +2,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 # Fetch HTML content from the URL
-url = "https://apps.dining.ucsb.edu/menu/day?dc=carrillo&dc=de-la-guerra&dc=ortega&dc=portola&d=2024-03-31&m=breakfast&m=brunch&m=lunch&m=dinner&m=late-night&food="
+url = "https://apps.dining.ucsb.edu/menu/day"
 page = urlopen(url)
 html = page.read()
 
@@ -59,8 +59,6 @@ for section in sections:
                         corrected_text = corrected_text.replace(take_out,"")
                     print("\"" + corrected_text + "\", ", end = ""),
             print("]")
-        else:
-            print("No meal information available")
         print("},")
 print("]")
 
