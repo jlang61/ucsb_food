@@ -3,9 +3,7 @@
  * @see https://v0.dev/t/pkf07PxlqUC
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
- import { Input } from "@/components/ui/input";
- import { Button } from "@/components/ui/button";
- import Link from "next/link";
+import Search from "@/components/search";
  
  export default function Component() {
    return (
@@ -16,7 +14,7 @@
              What food are you looking for?
            </h1>
          </div>
-         
+         <Search></Search>
        </div>
      </div>
    );
