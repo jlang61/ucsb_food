@@ -5,62 +5,44 @@ import { Input } from "./ui/input";
 import diningMenu from "../data/foodData";
 
 export default function Search() {
+  function getDayOfWeek(dateString: string) {
+    const parts = dateString.split('-');
+    const year = parseInt(parts[0], 10);
+    const month = parseInt(parts[1], 10) - 1; // Months are zero-indexed in JavaScript Date object
+    const day = parseInt(parts[2], 10);
+    const date = new Date(year, month, day);
+    const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const dayOfWeek = daysOfWeek[date.getDay()];
+    return dayOfWeek;
+  }
   const [availableHalls, setAvailableHalls] = useState<string[]>([]);
-
   function isFoodAvailable(food: string): string[] {
     const availableHalls: string[] = [];
-    // console.log("passed in", food);
 
-    diningMenu.forEach((hall: any) => {
-      if (hall.Breakfast) {
-        hall.Breakfast.forEach((meal: any) => {
-          // console.log(meal);
-          if (meal.toLowerCase().includes(food.toLowerCase())) {
-            if (!availableHalls.includes(hall.name + "'s Breakfast " + meal)) {
-              availableHalls.push(hall.name + "'s Breakfast " + meal);
+    // Iterate through each date in the diningMenu
+    diningMenu.forEach((date: any) => {
+      // Iterate through each dining hall on that date
+      date.dining_halls.forEach((hall: any) => {
+        // Iterate through each meal in the dining hall
+        Object.keys(hall.meals).forEach((mealTime: string) => {
+          hall.meals[mealTime].forEach((meal: string) => {
+            // Check if the meal contains the searched food
+            if (meal.toLowerCase().includes(food.toLowerCase())) {
+              // If the meal contains the searched food and it's not already in availableHalls, add it
+              const hallMeal = `${getDayOfWeek(date.date)} at ${hall.name}'s ${mealTime}: ${meal}`;
+              if (!availableHalls.includes(hallMeal)) {
+                availableHalls.push(hallMeal);
+              }
             }
-          }
+          });
         });
-      }
-      if (hall.Brunch) {
-        hall.Brunch.forEach((meal: any) => {
-          // console.log(meal);
-          if (meal.toLowerCase().includes(food.toLowerCase())) {
-            if (!availableHalls.includes(hall.name + "'s Brunch " + meal)) {
-              availableHalls.push(hall.name + "'s Brunch " + meal);
-            }
-          }
-        });
-      }
-
-      if (hall.Lunch) {
-        hall.Lunch.forEach((meal: any) => {
-          // console.log(meal);
-          if (meal.toLowerCase().includes(food.toLowerCase())) {
-            if (!availableHalls.includes(hall.name + "'s Lunch: " + meal)) {
-              availableHalls.push(hall.name + "'s Lunch: " + meal);
-            }
-          }
-        });
-      }
-      if (hall.Dinner) {
-        hall.Dinner.forEach((meal: any) => {
-          // console.log(meal);
-          if (meal.toLowerCase().includes(food.toLowerCase())) {
-            if (!availableHalls.includes(hall.name + "'s Dinner " + meal)) {
-              availableHalls.push(hall.name + "'s Dinner " + meal);
-            }
-          }
-        });
-      }
-
-      //   if (hall.meals.includes(food)) {
-      //     availableHalls.push(hall.name);
-      //   }
+      });
     });
-    console.log(availableHalls)
+
+    console.log(availableHalls);
     return availableHalls;
   }
+
   function handleSubmit(event: React.FormEvent<HTMLFormElement>): void {
     event.preventDefault();
     // console.log(event);
