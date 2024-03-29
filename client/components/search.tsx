@@ -6,12 +6,11 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenudropLabel,
+  DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import diningMenu from "@/data/foodData";
-import { DropdownMenuLabel } from "@radix-ui/react-dropdown-menu";
 
 export default function Search() {
   const [selectedOption, setSelectedOption] = useState("Today");
