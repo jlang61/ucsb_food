@@ -1,33 +1,5 @@
 const diningMenu = [
 {
-"date": "2024-09-10",
-"dining_halls": [
-{
-"name": "Carrillo",
-"meals": {
-}
-},
-{
-"name": "De La Guerra",
-"meals": {
-"Breakfast": ["Arroz con Leche", "Texas French Toast", "Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Sausage Link", "Tater Tots", "Sliced Potato with Onions", "Waffle", "Multi-Grain Waffle", "Pumpkin & Walnut Muffin (w/nuts)", "Bagels-Breads & Cereals- See for Choices"],
-"Lunch": ["Split Pea Soup", "Chipotle Chicken Wrap", "Italian Vegetable Stir Fry", "Baked Potato", "Chicken Mole Enchiladas", "Grilled Vegetable Tostada", "Mexican Rice", "Pinto Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Black Bean Salsa", "Pepperoni Pizza", "Pesto Cheese Pizza on Wheat Crust", "Herb Breadsticks", "Spicy Basil Beef", "Teriyaki Tofu Stir Fry", "Long Grain Rice", "Brown Rice", "Cheeseburger", "Black Bean Burger", "Grilled Roast Beef & Jack Sandwich", "Krinkle Cut French Fries", "Carrot & Raisin Salad", "Caponata Salad", "Herb Roll", "Snickerdoodle", "Butterscotch Bar (w/nuts)"],
-"Dinner": ["French Onion Soup", "Meatloaf", "Spring Vegetable Paella", "Garlic Mashed Potatoes", "Beef Gravy", "Steamed Green Beans", "Baked Potato", "Pork Morisqueta", "Potato Gorda with Black Beans", "Mexican Rice", "Pinto Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Papaya Salsa", "Pepperoni Pizza", "Pesto Cheese Pizza on Wheat Crust", "Herb Breadsticks", "Tortellini with Creamy Pesto Sauce", "Fresh Tomato Basil Garlic Pasta", "Long Grain Rice", "Brown Rice", "Marinated Green Beans Salad", "Whole Wheat Sourdough Bread", "Carrot Cake w/Cream Cheese (w/nuts)"],
-}
-},
-{
-"name": "Ortega",
-"meals": {
-}
-},
-{
-"name": "Portola",
-"meals": {
-}
-},
-],
-},
-{
 "date": "2024-09-11",
 "dining_halls": [
 {
@@ -68,7 +40,7 @@ const diningMenu = [
 "meals": {
 "Breakfast": ["7 Grain Hot Cereal", "Sausage & Cheese Biscuit", "Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Bacon", "Hash Browns", "Waffle", "Multi-Grain Waffle", "Chocolate Bread", "Strawberry Muffin", "Bagels-Breads & Cereals- See for Choices"],
 "Lunch": ["Tortilla Soup", "Philly Cheese Steak Sandwich", "Sauteed Swiss Chard with Garlic", "Baked Potato", "Chicken Soft Taco", "Potato Chorizo Burrito", "Yellow Rice", "Black Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Fresh Tomato Salsa", "Mac and Cheese Pizza", "Tomato Basil Pizza on Wheat", "Herb Breadsticks", "Peruvian Arroz Chaufa", "Brazilian Tofu Moqueca (w/nuts)", "Long Grain Rice", "Brown Rice", "Char Burger", "Malibu Burger", "Grilled Mozzarella & Basil on Sour", "Shoestring French Fries", "Japanese Noodle Salad", "Israeli Couscous Salad", "Focaccia Bread", "Chocolate Flan Cake", "Orange Glazed Cookie"],
-"Dinner": ["Spicy Navy Bean Soup", "Lemon Chicken Quarter", "Spinach Rice Casserole", "Potatoes Au Gratin", "Vegetable Medley", "Baked Potato", "Beef Birria", "Vegetable Soft Taco", "Yellow Rice", "Black Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Fresh Tomato Salsa", "Mac and Cheese Pizza", "Tomato Basil Pizza on Wheat", "Herb Breadsticks", "Chicken Marinara", "Fettuccine Pasta", "Cheese Sauce", "zCellentani Pasta", "Long Grain Rice", "Brown Rice", "Kale Arugula Salad with Cranberry", "Roasted Garlic Bread", "Boston Cream Pie"],
+"Dinner": ["Spicy Navy Bean Soup", "Lemon Chicken Quarter", "Spinach Rice Casserole", "Potatoes Au Gratin", "Vegetable Medley", "Baked Potato", "Beef Birria", "Vegetable Soft Taco", "Yellow Rice", "Black Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Fresh Tomato Salsa", "Mac and Cheese Pizza", "Tomato Basil Pizza on Wheat", "Herb Breadsticks", "Chicken Marinara", "Fettuccine Pasta", "Cheese Sauce", "Cellentani Pasta", "Long Grain Rice", "Brown Rice", "Kale Arugula Salad with Cranberry", "Roasted Garlic Bread", "Boston Cream Pie"],
 }
 },
 {
@@ -164,6 +136,31 @@ const diningMenu = [
 },
 {
 "date": "2024-09-16",
+"dining_halls": [
+{
+"name": "Carrillo",
+"meals": {
+}
+},
+{
+"name": "De La Guerra",
+"meals": {
+}
+},
+{
+"name": "Ortega",
+"meals": {
+}
+},
+{
+"name": "Portola",
+"meals": {
+}
+},
+],
+},
+{
+"date": "2024-09-17",
 "dining_halls": [
 {
 "name": "Carrillo",
