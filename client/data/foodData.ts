@@ -1,36 +1,5 @@
 const diningMenu = [
 {
-"date": "2025-03-16",
-"dining_halls": [
-{
-"name": "Carrillo",
-"meals": {
-"Brunch": ["Sliced Turkey", "Sliced Roast Beef", "Sliced Provolone Cheese", "Sliced Jack Cheese", "Caesar Salad", "Mushroom Barley Soup", "Patty Melt", "Garden Burger Patty Melt", "Peas with Onions", "Baked Potato", "Baked Sweet Potato", "Long Grain Rice", "Oatmeal", "Apple Cinnamon Pancake", "Chorizo and Eggs", "Hash Browns", "Cage Free Scrambled Egg Whites", "Cage Free Eggs Scrambled", "Black Beans", "Make Your Own Waffle", "Blueberry Muffin", "Banana Coffee Cake (w/nuts)"],
-"Dinner": ["Sticky Rice", "Chinese Chicken with Summer Vegetables", "Handmade Vegetable Egg Roll", "Beef Albondigas Soup", "Blue Cheese Spinach Bacon Salad (w/nuts)", "Pork Loin Roast With Garlic and Ginger", "Baked Acorn Squash", "Fresh Cauliflower", "Rice with Cilantro & Onions", "Rotini Pasta", "Marinara Sauce with Sausage", "Bowtie Pasta", "Marinara Sauce", "Baked Potato", "Baked Sweet Potato", "White Navy Beans", "Long Grain Rice", "Ham & Cheese Pizza", "Cheese Pizza on White", "Pesto and Vegetable Pizza on Wheat", "Jalapeno Cornbread", "Chocolate Chip Cake Kahlua"],
-}
-},
-{
-"name": "De La Guerra",
-"meals": {
-"Brunch": ["Vegetable Soup", "BBQ Chicken Sandwich", "Italian Mixed Vegetables", "Baked Potato", "Salami Pizza", "Olive Pizza", "Herb Breadsticks", "Arroz con Leche", "Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Blueberry Pancake", "Sausage Link", "Hash Browns", "Multi-Grain Waffle", "Waffle", "Parmesan Pasta Salad", "Sliced Cantalope", "Sliced Honeydew", "Grapefruit Halves", "Sliced Pineapple", "Glazed Raisin Bread", "Bagels-Breads & Cereals- See for Choices"],
-"Dinner": ["Cream of Sweet Potato Soup", "Char Grilled Pork Chop", "Roasted Potato Wedges", "Fresh Broccoli Spears", "Baked Potato", "Beef Chili Colorado Burrito", "Black Bean and Rice Burrito", "Mexican Rice", "Black Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Fire Roasted Tomato Salsa", "Salami Pizza", "Olive Pizza", "Herb Breadsticks", "Chicken Stir Fry w/Polynesian BBQ Sauce", "Vegetable Chow Mein", "Long Grain Rice", "Brown Rice", "Macaroni Salad", "Onion Walnut Bread (w/nuts)", "German Apple Cake w/Crm Chse (w/nuts) (v"],
-}
-},
-{
-"name": "Ortega",
-"meals": {
-}
-},
-{
-"name": "Portola",
-"meals": {
-"Brunch": ["Pineapple", "Cantalope", "Organic Fresh Strawberry", "Peanut Butter & Banana Oats (w/nuts)", "Cinnamon Maple Granola (w/nuts)", "Grits", "Long Grain Rice", "Make Your Own Waffle", "Watermelon", "Pickled Red Onion", "Lemon Mint Quinoa (w/nuts)", "Italian Sausage & Basil Stromboli", "Fresh Basil Pesto", "Whole Wheat Penne Pasta", "Italian Sausage Tomato Frittata", "Flour Tortilla", "Zucchini Bread (w/nuts)", "Bacon Egg & Sweet Potato Hash", "Grilled Cheese on Sourdough", "Pinto Beans", "Kale with Fresh Garlic", "Bean & Barley Soup", "Fresh Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Mexican Scrambled Eggs", "Buttermilk Pancakes", "Apple Cranberry Pancake Topping", "Roasted Breakfast Potato", "Fresh Vegetable Medley w/Spinach"],
-"Dinner": ["Baked Sweet Potato", "Brown Rice", "Bean & Barley Soup", "Watermelon Salad", "Pickled Red Onion", "Lemon Mint Quinoa (w/nuts)", "Italian Sausage & Basil Stromboli", "Fresh Basil Pesto", "Whole Wheat Penne Pasta", "Rigatoni Mozzarella", "Peach Crumb Pie (w/nuts)", "Ciabatta Roll", "Red Beans and Rice", "Rosemary Roasted Chicken Quarters", "Roasted Potato Wedges", "Roasted Broccoli", "Pork Balchao", "Sticky Rice", "Thai Vegetable & Peanut Noodle(w/nut)", "Steamed Broccoli & Cauliflower", "California Club Sushi Plate", "Daikon Roll"],
-}
-},
-],
-},
-{
 "date": "2025-03-17",
 "dining_halls": [
 {
@@ -210,6 +179,31 @@ const diningMenu = [
 },
 {
 "date": "2025-03-22",
+"dining_halls": [
+{
+"name": "Carrillo",
+"meals": {
+}
+},
+{
+"name": "De La Guerra",
+"meals": {
+}
+},
+{
+"name": "Ortega",
+"meals": {
+}
+},
+{
+"name": "Portola",
+"meals": {
+}
+},
+],
+},
+{
+"date": "2025-03-23",
 "dining_halls": [
 {
 "name": "Carrillo",
