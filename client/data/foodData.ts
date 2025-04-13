@@ -1,43 +1,12 @@
 const diningMenu = [
 {
-"date": "2025-04-12",
-"dining_halls": [
-{
-"name": "Carrillo",
-"meals": {
-"Brunch": ["Sliced Turkey Pastrami", "Sliced Genoa Salami", "Sliced Swiss Cheese", "Sliced Cheddar Cheese", "Caesar Salad", "Tomato Soup w/Fresh Vegetables", "Chicken Enchilada", "Corn with Red Peppers", "Refried Beans", "Mexican Rice", "Baked Potato", "Baked Sweet Potato", "Jasmine Rice", "Oatmeal", "Cage Free Scrambled Eggs with Cheese", "Grilled Ham with Honey Glaze", "Hash Browns", "Cage Free Scrambled Egg Whites", "Cage Free Eggs Scrambled", "Make Your Own Waffle", "Chocolate Chip Scone", "Lemon Bread"],
-"Dinner": ["Brown Rice", "Stir Fry Pork with Vegetables", "Vegetable & Tofu Stir Fry", "Matzo Ball Soup", "Charoset (w/nuts)", "Caesar Salad", "Ginger Beef Pepper Steak", "Polenta with Marinara Sauce", "Roasted Vegetables", "Peas", "Long Grain Rice", "Spaghetti Pasta", "Chicken Sausage & Mushroom Sauce", "Angel Hair Pasta", "Fresh Tomato Basil Sauce", "Black Beans", "Baked Potato", "Baked Sweet Potato", "Long Grain Rice", "Assorted Meat Pizza", "Vegetable Pizza on Wheat", "Cheese Pizza on White", "Macaroon", "Whole Wheat Bread", "Yellow Cake with Chocolate Icing"],
-}
-},
-{
-"name": "De La Guerra",
-"meals": {
-"Brunch": ["Chili Style Lentil Soup", "Reuben Sandwich", "Cauliflower and Broccoli", "Baked Potato", "Baked Sweet Potato", "Granola Parfait", "Sausage Pizza", "Pesto Cheese Pizza on Wheat Crust", "Herb Breadsticks", "Arroz con Leche", "Oatmeal", "Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Cage Free Scrambled Eggs Vegetables", "Chicken Sausage Patty", "Hash Browns", "Strawberry Sauce", "Chocolate Sauce", "Waffle", "Multi-Grain Waffle", "Taco Salad", "Sliced Cantalope", "Sliced Honeydew", "Sliced Pineapple", "Grapefruit Halves", "Bagels-Breads & Cereals- See for Choices", "Banana Chocolate Chip Muffin", "Chocolate Cherry Bread"],
-"Dinner": ["Vegetable Beef Soup", "Roast Beef", "Zucchini and Crookneck Squash", "Wild Rice Pilaf", "Baked Potato", "Carnitas Burrito", "Potato "Chorizo" Burrito", "Spanish Rice", "Pinto Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Roasted Chile Negro Salsa", "Sausage Pizza", "Pesto Cheese Pizza on Wheat Crust", "Herb Breadsticks", "Pork Stir Fry", "Vegetable Curry", "Long Grain Rice", "Brown Rice", "Quinoa Salad", "Sundried Tomato Roll", "Mexican Chocolate Cake"],
-}
-},
-{
-"name": "Ortega",
-"meals": {
-}
-},
-{
-"name": "Portola",
-"meals": {
-"Brunch": ["Grapefruit Halves", "Honeydew Melon", "Watermelon", "Cinnamon Maple Granola", "Chicken Congee", "Oatmeal", "Brown Rice", "Make Your Own Waffle", "Baby Spinach", "Raita Sauce", "Watermelon", "Bulgur Wheat", "Grilled BBQ Chicken Pizza", "Chilaquiles (No Egg)", "Roasted Chicken & Zucchini Marinara", "Farfalle Pasta", "Flour Tortilla", "Blueberry Bread", "Egg Ham & Cheese English Muffin Sandwich", "Sweet Potato Hash", "Chicken White Bean Chili", "Pinto Beans", "Fresh Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Grilled Ham", "Roasted Breakfast Potatoes", "Buttermilk Pancakes", "Roasted Cauliflower with Cumin"],
-"Dinner": ["Baked Potato", "Jasmine Rice", "Chicken White Bean Chili", "Raita Sauce", "Haroset (w/nuts)", "Bulgur Wheat", "Grilled BBQ Chicken Pizza", "Corn Pasta Sauce", "Whole Wheat Penne Pasta", "Roasted Chicken & Zucchini Marinara", "Farfalle Pasta", "Apple Crisp", "Chocolate Cookie", "Pesto Bread", "Chicken & Dumplings", "Fresh Green Beans with Garlic", "Pinto Beans", "Roasted Potato Wedges", "Shredded Beef Enchiladas", "Vegetarian Tostada", "Lettuce/Cheese/Tomatoes", "Sauteed Cabbage & Carrots", "Asparagus & Egg Roll", "Salmon Bowl with Brown Rice"],
-}
-},
-],
-},
-{
 "date": "2025-04-13",
 "dining_halls": [
 {
 "name": "Carrillo",
 "meals": {
-"Brunch": ["Sliced Roast Beef", "Sliced Turkey", "Sliced Provolone Cheese", "Sliced Jack Cheese", "Passover Quinoa Salad", "Caesar Salad", "Vegetable Soup", "Patty Melt", "Garden Burger Patty Melt", "Peas with Onions", "Baked Potato", "Baked Sweet Potato", "Long Grain Rice", "Oatmeal", "Whole Wheat Pancake (Housemade)", "Chorizo and Eggs", "Black Beans", "Fried Potatoes with Onions", "Matzo Brei", "Cage Free Scrambled Egg Whites", "Cage Free Eggs Scrambled", "Make Your Own Waffle", "Blueberry Muffin", "Banana Coffee Cake (w/nuts)"],
-"Dinner": ["Sticky Rice", "Chinese Chicken with Summer Vegetables", "Handmade Vegetable Egg Roll", "Vegetable Soup", "Passover Quinoa Salad", "Caesar Salad", "Pork Loin Roast With Garlic and Ginger", "Baked Acorn Squash", "Fresh Broccoli Spears", "Fresh Cauliflower", "Rice with Cilantro & Onions", "Whole Wheat Penne Pasta", "Marinara Sauce with Sausage", "Bowtie Pasta", "Marinara Sauce", "White Navy Beans", "Baked Potato", "Baked Sweet Potato", "Long Grain Rice", "Ham & Cheese Pizza", "Pesto and Vegetable Pizza on Wheat", "Cheese Pizza on White", "Jalapeno Cornbread", "Apple Matzo Kugel (w/nuts)"],
+"Brunch": ["Sliced Pastrami", "Sliced Turkey", "Sliced Provolone Cheese", "Sliced Jack Cheese", "Vegetable Soup", "Patty Melt", "Garden Burger Patty Melt", "Peas with Onions", "Baked Potato", "Baked Sweet Potato", "Long Grain Rice", "Caesar Salad", "Passover Quinoa Salad", "Oatmeal", "Whole Wheat Pancake (Housemade)", "Chorizo and Eggs", "Black Beans", "Fried Potatoes with Onions", "Matzo Brei", "Cage Free Scrambled Egg Whites", "Cage Free Eggs Scrambled", "Make Your Own Waffle", "Blueberry Muffin", "Banana Coffee Cake (w/nuts)"],
+"Dinner": ["Sticky Rice", "Chinese Chicken with Summer Vegetables", "Handmade Vegetable Egg Roll", "Vegetable Soup", "Pork Loin Roast With Garlic and Ginger", "Baked Acorn Squash", "Fresh Broccoli Spears", "Fresh Cauliflower", "Rice with Cilantro & Onions", "Passover Quinoa Salad", "Caesar Salad", "Whole Wheat Penne Pasta", "Marinara Sauce with Sausage", "Bowtie Pasta", "Marinara Sauce", "White Navy Beans", "Baked Potato", "Baked Sweet Potato", "Long Grain Rice", "Ham & Cheese Pizza", "Pesto and Vegetable Pizza on Wheat", "Cheese Pizza on White", "Jalapeno Cornbread", "Macaroon", "Chocolate Macaroon", "Apple Matzo Kugel (w/nuts)"],
 }
 },
 {
@@ -68,8 +37,8 @@ const diningMenu = [
 "name": "Carrillo",
 "meals": {
 "Breakfast": ["Oatmeal", "Breakfast Burrito", "Whole Wheat Pancake (Housemade)", "Hash Browns", "Matzo Brei", "Cage Free Scrambled Egg Whites", "Cage Free Eggs Scrambled", "Make Your Own Waffle", "Assorted Bagels & Condiments", "Raspberry White Chocolate Muffin"],
-"Lunch": ["Sliced Roast Beef", "Sliced Turkey Pastrami", "Sliced Pepper Jack Cheese", "Sliced Swiss Cheese", "Sticky Rice", "Chicken & Vegetable Stir Fry", "Vegetable Teriyaki Rice Bowl", "Yemenite Beef and Potato Stew", "Vegetable Taco", "Stir Fry Vegetables", "Rice with Cilantro & Onions", "Greek Salad", "Waldorf Walnut Salad (w/nuts)", "Thai Chicken Curry Pizza", "Olive Mushroom Pizza on White", "Traditional Cheese Pizza on Wheat", "Chicken Vegetable Soup", "Charburger", "Gardenburger", "Grilled Tuna & Swiss on Sourdough", "Black Beans", "Krinkle Cut Fries", "Baked Potato", "Baked Sweet Potato", "Brown Rice", "Potato Roll", "Brownie Matzo (w/nuts)", "Cookies 'n Cream Cake"],
-"Dinner": ["Tortilla Chips and Salsa", "Hummus", "Pita Chips", "Sticky Rice", "Pork Fried Rice", "Vegetable Tagine", "Chicken Vegetable Soup", "Chicken Chile Verde & Black Bean Burrito", "Corn", "Steamed Carrots", "Mexican Rice", "Green Salsa", "Oven Roasted Tomato", "Asparagus w/Lemon & Matzo Salad", "Spirals with Marinara Sauce", "Pasta Carbonara", "Long Grain Rice", "Pinto Beans", "Baked Potato", "Baked Sweet Potato", "Thai Chicken Curry Pizza", "Olive Mushroom Pizza on White", "Cheese Pizza on White", "Cracked Wheat Bread", "Macaroon", "Cream Cheese Pie"],
+"Lunch": ["Sliced Roast Beef", "Sliced Turkey Pastrami", "Sliced Pepper Jack Cheese", "Sliced Swiss Cheese", "Sticky Rice", "Chicken & Vegetable Stir Fry", "Vegetable Teriyaki Rice Bowl", "Yemenite Beef and Potato Stew", "Vegetable Taco", "Stir Fry Vegetables", "Rice with Cilantro & Onions", "Greek Salad", "Waldorf Walnut Salad (w/nuts)", "Thai Chicken Curry Pizza", "Olive Mushroom Pizza on White", "Traditional Cheese Pizza on Wheat", "Chicken Vegetable Soup", "Charburger", "Gardenburger", "Grilled Tuna & Swiss on Sourdough", "Black Beans", "Krinkle Cut Fries", "Baked Potato", "Baked Sweet Potato", "Brown Rice", "Potato Roll", "Brownie Matzo (w/nuts)", "Macaroon", "Chocolate Macaroon", "Cookies 'n Cream Cake"],
+"Dinner": ["Tortilla Chips and Salsa", "Hummus", "Pita Chips", "Sticky Rice", "Pork Fried Rice", "Vegetable Tagine", "Chicken Vegetable Soup", "Chicken Chile Verde & Black Bean Burrito", "Corn", "Steamed Carrots", "Mexican Rice", "Green Salsa", "Oven Roasted Tomato", "Asparagus w/Lemon & Matzo Salad", "Spirals with Marinara Sauce", "Pasta Carbonara", "Long Grain Rice", "Pinto Beans", "Baked Potato", "Baked Sweet Potato", "Thai Chicken Curry Pizza", "Olive Mushroom Pizza on White", "Cheese Pizza on White", "Cracked Wheat Bread", "Macaroon", "Chocolate Macaroon", "Cream Cheese Pie"],
 }
 },
 {
@@ -104,8 +73,8 @@ const diningMenu = [
 "name": "Carrillo",
 "meals": {
 "Breakfast": ["Oatmeal", "Cream of Wheat", "Whole Wheat French Toast", "Sausage Biscuits & Gravy", "Fried Potatoes with Onions", "Matzo Brei", "Cage Free Scrambled Egg Whites", "Cage Free Eggs Scrambled", "Fluffy Whole Wheat Waffles", "Danish Pastry (w/nuts)", "Whole Wheat Banana Muffin"],
-"Lunch": ["Sliced Turkey", "Egg Salad", "Sliced Provolone Cheese", "Sliced Cheddar Cheese", "Brown Rice", "Sesame Beef with Broccoli", "Vegetable Chop Suey", "Cucumber & Onion Salad", "Yogurt Potato Salad", "Japanese Chicken Curry", "Japanese Curry", "Pickled Scallions - Rakkyo Zuke", "Pickled Radish - Fukujin Zuke", "Sticky Rice", "Matzo Pie (w/nuts)", "Green Bean Almondine (w/nuts)", "Chicken Florentine Pizza w/White Sauce", "Roasted Garlic Onion & Pepper Pizza", "Cheese Pizza on White", "Vegetable Beef Soup", "Cheeseburger", "Black Bean Burger", "Quesadilla", "Shoestring Fries", "Refried Beans", "Baked Potato", "Baked Sweet Potato", "Couscous", "Tsoureki (Greek Easter Bread)", "Pecan Pie Bar (w/nuts)", "Cowboy Cookie Bar"],
-"Dinner": ["Tabouli Salad", "Broccoli Almond Salad (w/nuts)", "Sticky Rice", "Teriyaki Chicken Rice Bowl", "Vegetable Stir Fry", "Spicy Stir Fry Sauce", "Vegetable Beef Soup", "Cucumber & Onion Salad", "Caesar Salad", "Grilled Ono with Pesto Butter", "Fresh Corn on the Cob", "Sauteed Zucchini with Garlic", "Potato Latkes", "Penne Pasta", "Garlic & Caper Butter Sauce", "Pasta Primavera", "Pinto Beans", "Baked Potato", "Baked Sweet Potato", "Brown Rice", "Chicken Florentine Pizza w/White Sauce", "Roasted Garlic Onion & Pepper Pizza", "Cheese Pizza on White", "Onion Bread", "Confetti Cake"],
+"Lunch": ["Sliced Turkey", "Egg Salad", "Sliced Provolone Cheese", "Sliced Cheddar Cheese", "Brown Rice", "Sesame Beef with Broccoli", "Vegetable Chop Suey", "Cucumber & Onion Salad", "Yogurt Potato Salad", "Japanese Chicken Curry", "Japanese Curry", "Pickled Scallions - Rakkyo Zuke", "Pickled Radish - Fukujin Zuke", "Sticky Rice", "Matzo Pie (w/nuts)", "Green Bean Almondine (w/nuts)", "Chicken Florentine Pizza w/White Sauce", "Roasted Garlic Onion & Pepper Pizza", "Cheese Pizza on White", "Vegetable Beef Soup", "Cheeseburger", "Black Bean Burger", "Quesadilla", "Shoestring Fries", "Refried Beans", "Baked Potato", "Baked Sweet Potato", "Couscous", "Tsoureki (Greek Easter Bread)", "Pecan Pie Bar (w/nuts)", "Macaroon", "Chocolate Macaroon", "Cowboy Cookie Bar"],
+"Dinner": ["Tabouli Salad", "Broccoli Almond Salad (w/nuts)", "Sticky Rice", "Teriyaki Chicken Rice Bowl", "Vegetable Stir Fry", "Spicy Stir Fry Sauce", "Vegetable Beef Soup", "Cucumber & Onion Salad", "Caesar Salad", "Grilled Ono with Pesto Butter", "Fresh Corn on the Cob", "Sauteed Zucchini with Garlic", "Potato Latkes", "Penne Pasta", "Garlic & Caper Butter Sauce", "Pasta Primavera", "Pinto Beans", "Baked Potato", "Baked Sweet Potato", "Brown Rice", "Chicken Florentine Pizza w/White Sauce", "Roasted Garlic Onion & Pepper Pizza", "Cheese Pizza on White", "Onion Bread", "Macaroon", "Chocolate Macaroon", "Confetti Cake"],
 }
 },
 {
@@ -140,8 +109,8 @@ const diningMenu = [
 "name": "Carrillo",
 "meals": {
 "Breakfast": ["Oatmeal", "Arroz con Leche", "Strawberry Pancake", "Bacon", "Potatoes O'Brien", "Matzo Brei", "Cage Free Scrambled Egg Whites", "Cage Free Eggs Scrambled", "Make Your Own Waffle", "Applesauce Coffee Cake", "Blueberry Scone"],
-"Lunch": ["Sliced Genoa Salami", "Sliced Turkey", "Sliced Jack Cheese", "Brown Rice", "Lemon Ginger Chicken", "Vegetable Stir Fry", "Thai Sweet Chili Sauce", "Arni Psito (Roasted Lamb)", "Spanakopita Triangles (V)", "Steamed Fresh Carrots", "Pasta Salad with Spinach & Feta", "Carrot & Raisin Salad", "Pepperoni Pizza", "Vegetable & Jalapeno Pizza on Wheat", "Cheese Pizza on White", "Cream of Parsley Soup w/Horseradish", "Charburger", "Grilled Vegetable Burger", "Reuben Sandwich", "Shoestring Fries", "Black Beans", "Baked Potato", "Baked Sweet Potato", "Jasmine Rice", "Raisin Bread with Glaze", "Caramel Flan", "Banana Chocolate Bar"],
-"Dinner": ["Tortilla Chips and Salsa", "Hummus", "Pita Chips", "Sticky Rice", "Green Curry Beef on Rice Noodle (w/nuts)", "Tofu Veggie Pad Thai w/Peanut(w/nuts)", "Cream of Parsley Soup w/Horseradish", "Brisket and Potato Kugel", "Fresh Broccoli Spears", "Fresh Spinach with Garlic", "Polenta with Marinara Sauce", "Pasta Salad with Spinach & Feta", "Whole Wheat Spaghetti", "Meat Sauce", "Linguini Pasta", "Marinara Sauce", "White Navy Beans", "Baked Potato", "Baked Sweet Potato", "Brown Rice", "Pepperoni Pizza", "Vegetable & Jalapeno Pizza on Wheat", "Cheese Pizza on White", "Chocolate Matzo Cake Passover Friendl", "Coconut Poke Cake", "Sourdough Bread"],
+"Lunch": ["Sliced Genoa Salami", "Sliced Turkey", "Sliced Jack Cheese", "Brown Rice", "Lemon Ginger Chicken", "Vegetable Stir Fry", "Thai Sweet Chili Sauce", "Arni Psito (Roasted Lamb)", "Spanakopita Triangles (V)", "Steamed Fresh Carrots", "Pasta Salad with Spinach & Feta", "Carrot & Raisin Salad", "Pepperoni Pizza", "Vegetable & Jalapeno Pizza on Wheat", "Cheese Pizza on White", "Cream of Parsley Soup w/Horseradish", "Charburger", "Grilled Vegetable Burger", "Reuben Sandwich", "Shoestring Fries", "Black Beans", "Baked Potato", "Baked Sweet Potato", "Jasmine Rice", "Raisin Bread with Glaze", "Caramel Flan", "Macaroon", "Chocolate Macaroon", "Banana Chocolate Bar"],
+"Dinner": ["Tortilla Chips and Salsa", "Hummus", "Pita Chips", "Sticky Rice", "Green Curry Beef on Rice Noodle (w/nuts)", "Tofu Veggie Pad Thai w/Peanut(w/nuts)", "Cream of Parsley Soup w/Horseradish", "Brisket and Potato Kugel", "Fresh Broccoli Spears", "Fresh Spinach with Garlic", "Polenta with Marinara Sauce", "Pasta Salad with Spinach & Feta", "Whole Wheat Spaghetti", "Meat Sauce", "Linguini Pasta", "Marinara Sauce", "White Navy Beans", "Baked Potato", "Baked Sweet Potato", "Brown Rice", "Pepperoni Pizza", "Vegetable & Jalapeno Pizza on Wheat", "Cheese Pizza on White", "Chocolate Matzo Cake Passover Friendl", "Coconut Poke Cake", "Macaroon", "Chocolate Macaroon", "Sourdough Bread"],
 }
 },
 {
@@ -176,8 +145,8 @@ const diningMenu = [
 "name": "Carrillo",
 "meals": {
 "Breakfast": ["Oatmeal", "Pancake", "Eggs Benedict", "Hash Browns", "Matzo Brei", "Cage Free Scrambled Egg Whites", "Cage Free Eggs Scrambled", "Make Your Own Waffle", "Raspberry Scone", "Cinnamon Roll"],
-"Lunch": ["Sliced Ham", "Argentinian Grilled Vegetable", "Sliced Cheddar Cheese", "Sliced Swiss Cheese", "Brown Rice", "Beef Chow Mein", "Vegetable Chow Mein", "Taco Salad", "Kale & Arugula Salad w/Cranberries", "Mahi Mahi Veracruz", "Steamed Zucchini", "Fresh Vegetable Medley", "Rice with Cilantro & Onions", "Salami Pizza", "Assorted Bell Pepper Pizza on Wheat", "Cheese Pizza on White", "Vegetable Soup", "Pozole with Condiments", "Grass Fed Burger", "Gardenburger", "Grilled Cheese on Sourdough", "Steak Fries", "Black Beans", "Baked Potato", "Baked Sweet Potato", "Brown Rice", "Olive Whole Wheat Bread", "Galaktoboureko (Greek Pudding)", "Passover Crunchy Choc Matzo Bark"],
-"Dinner": ["Nicoise Pasta Salad", "Greek Eggplant Salad", "Sticky Rice", "Chicken & Vegetable Stir Fry", "Vegetable & Tofu Stir Fry", "Vegetable Soup", "Kale & Arugula Salad w/Cranberries", "Honey Baked Chicken Quarters", "Steamed Carrots", "Roasted Beets", "Three Bean Pilaf", "Buttered Noodles", "Penne with Chicken and Mushrooms", "Angel Hair Pasta", "Tomato Basil & Garlic Sauce", "Pinto Beans", "Baked Potato", "Baked Sweet Potato", "Salami Pizza", "Assorted Bell Pepper Pizza on Wheat", "Cheese Pizza on White", "Sour Cream & Chives Roll", "Chocolate Macaroon", "Chocolate Flourless Cake"],
+"Lunch": ["Sliced Ham", "Argentinian Grilled Vegetable", "Sliced Cheddar Cheese", "Sliced Swiss Cheese", "Brown Rice", "Beef Chow Mein", "Vegetable Chow Mein", "Mahi Mahi Veracruz", "Steamed Zucchini", "Fresh Vegetable Medley", "Rice with Cilantro & Onions", "Taco Salad", "Kale & Arugula Salad w/Cranberries", "Salami Pizza", "Assorted Bell Pepper Pizza on Wheat", "Cheese Pizza on White", "Vegetable Soup", "Pozole with Condiments", "Grass Fed Burger", "Gardenburger", "Grilled Cheese on Sourdough", "Steak Fries", "Black Beans", "Baked Potato", "Baked Sweet Potato", "Brown Rice", "Olive Whole Wheat Bread", "Galaktoboureko (Greek Pudding)", "Macaroon", "Chocolate Macaroon", "Passover Crunchy Choc Matzo Bark"],
+"Dinner": ["Nicoise Pasta Salad", "Greek Eggplant Salad", "Sticky Rice", "Chicken & Vegetable Stir Fry", "Vegetable & Tofu Stir Fry", "Vegetable Soup", "Honey Baked Chicken Quarters", "Steamed Carrots", "Roasted Beets", "Three Bean Pilaf", "Buttered Noodles", "Kale & Arugula Salad w/Cranberries", "Penne with Chicken and Mushrooms", "Angel Hair Pasta", "Tomato Basil & Garlic Sauce", "Pinto Beans", "Baked Potato", "Baked Sweet Potato", "Salami Pizza", "Assorted Bell Pepper Pizza on Wheat", "Cheese Pizza on White", "Sour Cream & Chives Roll", "Chocolate Macaroon", "Macaroon", "Chocolate Flourless Cake"],
 }
 },
 {
@@ -212,8 +181,8 @@ const diningMenu = [
 "name": "Carrillo",
 "meals": {
 "Breakfast": ["Oatmeal", "Cream of Wheat", "Buttermilk Pancake", "Denver Omelet", "Diced Potatoes", "Matzo Brei", "Cage Free Scrambled Egg Whites", "Cage Free Eggs Scrambled", "Fluffy Whole Wheat Waffles", "Assorted Bagels & Condiments", "Dried Cranberry Coconut Scone"],
-"Lunch": ["Sliced Turkey", "Sliced Pastrami", "Sliced Jack Cheese", "Sliced Provolone Cheese", "Carnitas Tortas", "Chamorro BBQ Chicken", "Potato Vegetable Kugel", "Green Beans", "Sticky Rice", "Jicama Pico De Gallo", "Tabouli Salad", "Buffalo Chicken Pizza", "Arugula & Artichoke Pizza on White", "Cheese Pizza on White", "Chicken Vegetable Soup", "Charburger", "Gardenburger", "Chicken Taquito", "Potato Taquito", "Krinkle Cut Fries", "White Navy Beans", "Baked Potato", "Baked Sweet Potato", "Long Grain Rice", "Whole Wheat Cheese Onion Roll", "Vanilla Almond Pudding (w/nuts)", "Kahlua Espresso Chocolate Chip Cookie"],
-"Dinner": ["Tortilla Chips and Salsa", "Hummus", "Pita Chips", "Sticky Rice", "Ginger Beef Stir Fry", "Vegetable Fried Rice", "Chicken Vegetable Soup", "Crispy Salmon Roll", "Long Grain Rice", "Eggplant Parmesan Casserole", "Carrots with Fresh Thyme", "Fresh Green Beans", "Jicama Pico De Gallo", "Rigatoni Pasta", "Chicken Sausage & Mushroom Sauce", "Fettucine Alfredo", "Black Beans", "Baked Potato", "Baked Sweet Potato", "Brown Rice", "Buffalo Chicken Pizza", "Arugula & Artichoke Pizza on White", "Cheese Pizza on White", "Garlic Roll", "Chocolate Macaroon", "Carrot Cake (w/nuts)"],
+"Lunch": ["Sliced Turkey", "Sliced Pastrami", "Sliced Jack Cheese", "Sliced Provolone Cheese", "Carnitas Tortas", "Chamorro BBQ Chicken", "Potato Vegetable Kugel", "Green Beans", "Sticky Rice", "Jicama Pico De Gallo", "Tabouli Salad", "Buffalo Chicken Pizza", "Arugula & Artichoke Pizza on White", "Cheese Pizza on White", "Chicken Vegetable Soup", "Charburger", "Gardenburger", "Chicken Taquito", "Potato Taquito", "Krinkle Cut Fries", "White Navy Beans", "Baked Potato", "Baked Sweet Potato", "Long Grain Rice", "Whole Wheat Cheese Onion Roll", "Vanilla Almond Pudding (w/nuts)", "Macaroon", "Chocolate Macaroon", "Kahlua Espresso Chocolate Chip Cookie"],
+"Dinner": ["Tortilla Chips and Salsa", "Hummus", "Pita Chips", "Sticky Rice", "Ginger Beef Stir Fry", "Vegetable Fried Rice", "Chicken Vegetable Soup", "Crispy Salmon Roll", "Long Grain Rice", "Eggplant Parmesan Casserole", "Carrots with Fresh Thyme", "Fresh Green Beans", "Jicama Pico De Gallo", "Rigatoni Pasta", "Chicken Sausage & Mushroom Sauce", "Fettucine Alfredo", "Black Beans", "Baked Potato", "Baked Sweet Potato", "Brown Rice", "Buffalo Chicken Pizza", "Arugula & Artichoke Pizza on White", "Cheese Pizza on White", "Garlic Roll", "Chocolate Macaroon", "Macaroon", "Carrot Cake (w/nuts)"],
 }
 },
 {
@@ -237,6 +206,37 @@ const diningMenu = [
 "Breakfast": ["Whole Plain Greek Yogurt", "Vanilla Yogurt", "Pineapple", "Watermelon", "Cantaloupe", "Fluffy Whole Wheat Waffles", "Crunchy Fruit Salad (w/nuts)", "Cinnamon Maple Granola", "Oatmeal", "Baby Spinach", "Flour Tortilla", "Homemade Biscuit", "Banana Coffee Cake (w/nuts)", "Fresh Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Scrambled Eggs w/Cheese & Mushroom", "Matzo Brei", "Blueberry Pancakes", "Home Fried Potatos", "Sauteed Kale"],
 "Lunch": ["Italian Tomato Panini", "Passover Quinoa Salad", "Sliced Turkey", "Sliced Provolone Cheese", "Sliced Roast Beef", "Sliced Pepper Jack Cheese", "Baked Potato", "Basmati Rice", "Caldo de Marisco", "Haroset (w/nuts)", "Orange Pickled Carrot Coins", "Bulgur Wheat", "Three Cheese Flatbread", "Grilled BBQ Chicken Pizza", "Penne Pasta", "Creamy Pesto Sauce", "Crusty French Bread", "Cream Cheese Brownie Pie", "Baklava Cookie (w/nuts)", "Chicken Parmigiana Sandwich", "Turkey Meatloaf", "Buttered Noodles", "Pinto Beans", "Fresh Green Beans with Garlic", "Carnitas Taco", "Chile Salsa", "Yellow Rice", "Cilantro & Onion Mix", "Spinach with Garlic & Ginger", "Tempura Onion Roll", "Calamari Roll", "Hamburger", "Grilled Cheddar On Wheat", "Blueberry Pancakes", "Crinkle Cut French Fries", "Chipotle Aioli", "Housemade Spicy Ketchup", "Chimichurri Sauce"],
 "Dinner": ["Baked Sweet Potato", "Wild Rice", "Caldo de Marisco", "Grilled BBQ Chicken Pizza", "Creamy Pesto Sauce", "Penne Pasta", "Pasta Primavera w/Tomato Sauce", "Haroset (w/nuts)", "Orange Pickled Carrot Coins", "Bulgur Wheat", "Crusty French Bread", "Chocolate Chip Banana Bread Pudding", "Lasagna Bolognese", "Baked Rigatoni", "Black Beans", "Carrot & Zucchini with Lemon Butter", "Fresh Spinach with Garlic", "Tandoori Spiced Chicken", "Mujaddara Lentils and Rice", "Smoked Fish Fritters w/Beet Vinaigrette", "Roasted Cauliflower w/Garlic", "Calamari Sushi Plate", "Tempura Onion Roll"],
+}
+},
+],
+},
+{
+"date": "2025-04-19",
+"dining_halls": [
+{
+"name": "Carrillo",
+"meals": {
+"Brunch": ["Sliced Pastrami", "Sliced Turkey", "Sliced Cheddar Cheese", "Sliced Swiss Cheese", "Matzo Ball Soup", "Rotisserie Pork Loin", "Mushroom Gravy", "Mixed Vegetables", "Baked Potato", "Baked Sweet Potato", "Long Grain Rice", "Passover Quinoa Salad", "Caesar Salad", "Oatmeal", "Blueberry Pancake", "Sausage Patty", "Black Beans", "Hash Browns", "Matzo Brei", "Cage Free Scrambled Egg Whites", "Cage Free Eggs Scrambled", "Make Your Own Waffle", "Brunch Coffee Cake", "Banana Choc Chip Muffin"],
+"Dinner": ["Sticky Rice", "Chicken General Tso's", "Chinese Style Tofu & Vegetables", "Matzo Ball Soup", "Roast Beef", "Beef Gravy", "Fresh Cauliflower", "Sauteed Zucchini Sticks", "Ratatouille with White Beans", "Oven Browned Potatoes", "Passover Quinoa Salad", "Caesar Salad", "Rotini Pasta", "Chicken Marinara Sauce", "Bowtie Pasta", "Fresh Basil Sauce", "Pinto Beans", "Baked Potato", "Baked Sweet Potato", "Long Grain Rice", "Ham & Pineapple", "Artichoke Pizza with Pesto on Wheat", "Cheese Pizza on White", "Macaroon", "Rosemary Roll", "Macaroon", "Chocolate Macaroon", "Very Chocolate Cake w/Chocolate Icing"],
+}
+},
+{
+"name": "De La Guerra",
+"meals": {
+"Brunch": ["Chicken Vegetable Soup", "Buffalo Chicken Drumstick", "Vegetable Medley", "Baked Potato", "Assorted Meat Pizza", "Cheese Pizza on Wheat Crust", "Herb Breadsticks", "Cream of Wheat", "Cage Free Scrambled Egg Whites", "Cage Free Scrambled Eggs", "Texas French Toast", "Matzo Brei w/Raisins", "Sausage Patty", "Hash Browns", "Waffle", "Multi-Grain Waffle", "Yogurt Potato Salad", "Sliced Cantalope", "Sliced Honeydew", "Sliced Pineapple", "Grapefruit Halves", "Bagels-Breads & Cereals- See for Choices", "Pinch Bread"],
+"Dinner": ["Chicken Vegetable Soup", "Herb Chicken Quarters", "Spinach and Matzo Walnut Lasagna(w/nuts)", "Fresh Vegetable Medley", "Rice Pilaf", "Baked Potato", "Beef Enchilada", "Black Bean & Rice Tostada", "Yellow Rice", "Refried Black Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Black Bean Salsa", "Assorted Meat Pizza", "Cheese Pizza on Wheat Crust", "Herb Breadsticks", "Sesame Beef with Broccoli", "Spicy Veg Stir Fry w/Peanut (w/nuts)", "Long Grain Rice", "Brown Rice", "Green Bean Provencal Salad", "Pizza Bread", "Cherry Cobbler"],
+}
+},
+{
+"name": "Ortega",
+"meals": {
+}
+},
+{
+"name": "Portola",
+"meals": {
+"Brunch": ["Watermelon", "Grapefruit Halves", "Seedless Red Grape", "Cinnamon Maple Granola", "Peanut Butter & Banana Oats (w/nuts)", "Brown Rice", "Make Your Own Waffle", "Haroset (w/nuts)", "Orange Pickled Carrot Coins", "Bulgur Wheat", "Chicken Florentine Pizza w/White Sauce", "Fluffy Whole Wheat Waffles", "Fresh Blueberry Compote", "White Wine Garlic Sauce with Chicken", "Flour Tortilla", "Pumpkin Bread (w/nuts)", "Black Bean Chilaquiles", "Fried Eggs", "Roasted Yam w/Rosemary & Chile", "Pinto Beans", "Vegetable Soup", "Fresh Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Matzo Brei", "Sausage Links", "Roasted Breakfast Potato", "Banana Pancakes", "Grilled Zucchini & Tomatoes"],
+"Dinner": ["Baked Sweet Potato", "Jasmine Rice", "Vegetable Soup", "Haroset (w/nuts)", "Orange Pickled Carrot Coins", "Bulgur Wheat", "Chicken Florentine Pizza w/White Sauce", "Alfredo Sauce", "Fettuccine Pasta", "Fresh Tomato Basil Garlic Pasta", "German Chocolate Cake (w/nuts)", "Whole Wheat Bread Sourdough", "Baked Pesto Pasta w/Chicken", "Spinach and Matzo Lasagna (w/nuts)", "Pinto Beans", "Roasted Vegetables", "Steamed Fresh Broccoli", "Asian Beef Bowl", "Sticky Rice", "Thai Tofu Curry w/ Vegetables", "Spinach with Garlic & Ginger", "Spicy Shrimp Sushi Plate w/Brown Rice", "Vegetable Roll"],
 }
 },
 ],
