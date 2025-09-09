@@ -1,33 +1,5 @@
 const diningMenu = [
 {
-"date": "2025-09-08",
-"dining_halls": [
-{
-"name": "Carrillo",
-"meals": {
-}
-},
-{
-"name": "De La Guerra",
-"meals": {
-"Breakfast": ["7 Grain Hot Cereal", "Pasilla Chile Scramble Eggs", "Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Chicken Sausage Patty", "Hash Browns", "Waffle", "Multi-Grain Waffle", "Blueberry Scone", "Banana Nut Bread  (w/nuts)", "Bagels-Breads & Cereals- See for Choices"],
-"Lunch": ["Hearty Vegetable Soup", "Reuben Sandwich", "Vegetable Medley", "Baked Potato", "Baked Sweet Potato", "Carnitas Taco", "Black Bean & Rice Tostada", "Rice with Cilantro & Lime", "Refried Black Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Roasted Tomato and Chile Salsa", "Taco Pizza", "Cheese Pizza", "Herb Breadsticks", "Korean Spicy Chicken Stew", "Spicy Veg. Stir Fry w/Brown Rice", "Long Grain Rice", "Char Burger", "Veggie Burger on Whole Wheat Bun", "Grilled Turkey & Swiss on Wheat", "Shoestring French Fries", "Pasta Salad with Spinach & Feta", "Cucumber wiith Tarragon Salad", "Whole Wheat Sunflower Roll", "Oatmeal Lace Cookie", "Banana Chocolate Chip Bar"],
-"Dinner": ["Hot and Sour Soup", "Grilled Chicken Quarters", "Vegetable Medley", "Roasted Potato Wedges", "Baked Potato", "Baked Sweet Potato", "Ground Beef & Bean Burrito", "Bean & Cheese Nachos", "Rice with Cilantro & Lime", "Refried Black Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Roasted Tomato and Chile Salsa", "Taco Pizza", "Cheese Pizza", "Herb Breadsticks", "Cashew Chicken (w/nuts)", "Veggie Thai Chili Stir Fry w/Rice", "Long Grain Rice", "Brown Rice", "Farfalle Sun Dried Tomato & Feta Salad(v", "Cracked Wheat Bread", "Yellow Cake with Mocha Frosting"],
-}
-},
-{
-"name": "Ortega",
-"meals": {
-}
-},
-{
-"name": "Portola",
-"meals": {
-}
-},
-],
-},
-{
 "date": "2025-09-09",
 "dining_halls": [
 {
@@ -167,6 +139,31 @@ const diningMenu = [
 },
 {
 "date": "2025-09-14",
+"dining_halls": [
+{
+"name": "Carrillo",
+"meals": {
+}
+},
+{
+"name": "De La Guerra",
+"meals": {
+}
+},
+{
+"name": "Ortega",
+"meals": {
+}
+},
+{
+"name": "Portola",
+"meals": {
+}
+},
+],
+},
+{
+"date": "2025-09-15",
 "dining_halls": [
 {
 "name": "Carrillo",
