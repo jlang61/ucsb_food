@@ -1,30 +1,5 @@
 const diningMenu = [
 {
-"date": "2025-12-13",
-"dining_halls": [
-{
-"name": "Carrillo",
-"meals": {
-}
-},
-{
-"name": "De La Guerra",
-"meals": {
-}
-},
-{
-"name": "Ortega",
-"meals": {
-}
-},
-{
-"name": "Portola",
-"meals": {
-}
-},
-],
-},
-{
 "date": "2025-12-14",
 "dining_halls": [
 {
@@ -151,6 +126,31 @@ const diningMenu = [
 },
 {
 "date": "2025-12-19",
+"dining_halls": [
+{
+"name": "Carrillo",
+"meals": {
+}
+},
+{
+"name": "De La Guerra",
+"meals": {
+}
+},
+{
+"name": "Ortega",
+"meals": {
+}
+},
+{
+"name": "Portola",
+"meals": {
+}
+},
+],
+},
+{
+"date": "2025-12-20",
 "dining_halls": [
 {
 "name": "Carrillo",
