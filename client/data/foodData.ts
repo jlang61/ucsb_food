@@ -1,37 +1,5 @@
 const diningMenu = [
 {
-"date": "2026-07-05",
-"dining_halls": [
-{
-"name": "Carrillo",
-"meals": {
-"Lunch": ["Sliced Turkey Pastrami", "Sliced Ham", "Sliced Pepper Jack Cheese", "Sliced Swiss Cheese", "Sticky Rice", "Chicken General Tso's", "Chinese Style Tofu & Vegetables", "Parmesan Pasta Salad", "Red Potato Salad with Dill", "Pork Loin Roast With Garlic and Ginger", "Sauteed Carrots with Tarragon", "Corn", "Risotto with Fresh Vegetables", "Sausage Mushroom Pizza", "Cheese Pizza", "Tomato Basil Pizza on Wheat", "Split Pea Soup", "Charburger", "Gardenburger", "Quesadilla", "Krinkle Cut Fries", "Baked Potato", "Baked Sweet Potato", "Wild and Long Grain Rice Blend", "Irish Soda Bread", "Black and White Brownie", "Hazelnut Butter Cookie (w/nuts)"],
-"Dinner": ["Sticky Rice", "Chinese Chicken with Vegetables", "Vegetable Egg Roll", "Caesar Salad", "Cilantro Lime Salmon", "Cilantro Lime Rockfish", "Baked Acorn Squash", "Fresh Broccoli Spears", "Fresh Cauliflower", "Scalloped Potatoes", "Beef Albondigas Soup", "Mustard Chicken Sauce", "Fettuccine", "Fresh Basil Pesto", "Bowtie Pasta", "Baked Potato", "Baked Sweet Potato", "Wild and Long Grain Rice Blend", "Sausage Mushroom Pizza", "Cheese Pizza", "Tomato Basil Pizza on Wheat", "Key Lime Pie", "Cornbread with Honey Butter"],
-}
-},
-{
-"name": "De La Guerra",
-"meals": {
-"Lunch": ["Potato Leek Soup", "Italian Wrap", "Steamed Carrot & Corn & Peas", "Baked Potato", "Chicken Chile Verde Burrito", "Vegetable Empanada", "Yellow Rice", "Refried Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Avocado Salsa", "Sausage Pizza", "Mushroom Pizza", "Herb Breadsticks", "Turkey Stir Fry with Brown Rice", "Vegetable Noodle Stir Fry", "Long Grain Rice", "Wild Rice Blend", "Char Burger", "Black Bean Burger", "Krinkle Cut French Fries", "Santa Fe Salad", "Marinated Mushroom Salad", "Herb Biscuit", "Oatmeal Raisin Cookie", "Butterscotch Pecan Bar (w/nuts)"],
-"Dinner": ["Miso Soup", "Chicken Parmigiana", "Fresh Broccoli Spears", "Herb Spaghetti w/Garlic & Olive Oil (vgn", "Baked Potato", "Beef Taquito", "Potato Vegetable Taco", "Yellow Rice", "Refried Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Avocado Salsa", "Sausage Pizza", "Mushroom Pizza", "Herb Breadsticks", "Chicken & Mushrooms with Pasta", "Wheat Penne Pasta", "Marinara Sauce", "Long Grain Rice", "Wild Rice Blend", "Asian Spinach Salad", "Rustic Italian Crusty Bread", "Hawaiian Sweet Bread"],
-}
-},
-{
-"name": "Ortega",
-"meals": {
-}
-},
-{
-"name": "Portola",
-"meals": {
-"Breakfast": ["Organic Nonfat Plain Greek Yogurt", "Strawberry Yogurt", "Fresh Strawberry", "Honeydew Melon", "Pineapple", "Sliced Cantalope", "Make Your Own Waffle", "Cinnamon Maple Granola", "Buckwheat Almond Parfait (w/nuts)", "8 Grain Hot Cereal", "Baby Spinach", "Flour Tortilla", "Blueberry Coffee Cake", "Sticky Pecan Buns (w/nuts)", "Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Whole Wheat Banana Pancakes", "Grilled Ham", "Roasted Red Breakfast Potatoes", "Fresh Sauteed Spinach"],
-"Lunch": ["Kale & Quinoa Salad", "Italian Panini", "Baked Sweet Potato", "Brown Rice", "Beef and Barley Soup", "Watermelon", "Black Beans", "Mushroom & Sage Flatbread", "Steamed Broccoli & Cauliflower", "Penne Pasta with Pesto", "Sausage Marinara Sauce", "Linguini Pasta", "Cheese Bread", "Espresso Coffee Cupcake", "Fluffy Almond Sugar Cookie (w/nuts)", "Grilled Turkey Burger", "Chicken Shoyu", "Sticky Rice", "Whole Wheat Banana Pancakes", "Crinkle Cut French Fries", "Housemade Ketchup", "Fire Roasted Tomato Salsa"],
-"Dinner": ["Baked Sweet Potato", "Brown Rice", "Beef and Barley Soup", "Tomato Basil Pizza on White", "Bolognaise Sauce", "Spaghetti", "Penne Pasta with Pesto", "Roasted Asparagus", "Sweet &Tangy Pickled Red Onion", "Cornmeal Berry Cake", "Whole Wheat French Bread", "Honey Lime BBQ Chicken Thigh", "Mashed Red Potatoes w/ Garlic", "Brown Rice Artichoke Casserole", "Sauteed Cabbage & Carrots", "Lemon Baked Salmon", "Spanish Spiced Lentils", "Honey Sriracha Glaze Brussel Sprouts", "Broccoli Spinach Bok Choy Stir Fry", "California Roll"],
-}
-},
-],
-},
-{
 "date": "2026-07-06",
 "dining_halls": [
 {
@@ -228,6 +196,39 @@ const diningMenu = [
 "Breakfast": ["Organic Nonfat Plain Greek Yogurt", "Vanilla Yogurt", "Honeydew Melon", "Seedless Red Grape", "Cantaloupe", "Fluffy Whole Wheat Waffles", "Crunchy Fruit Salad", "Cinnamon Maple Granola", "Oatmeal", "Baby Spinach", "Flour Tortilla", "Homemade Biscuit", "Banana Walnut Coffee Cake (w/nuts)", "Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Blueberry Pancakes", "Home Fried Potatos", "Grilled Ham", "Steamed Fresh Broccoli"],
 "Lunch": ["Strawberry Salad w/Poppyseed Dressing", "Grilled Cheese and Tomato on Wheat", "Baked Sweet Potato", "Quinoa", "Roasted Celery Soup", "Watermelon", "Black Beans", "Spinach & Ricotta Flatbread", "Italian Sausage & Basil Stromboli", "Fresh Sauteed Spinach", "Pasta Primavera", "Spaghetti", "Rosemary Roll", "Sugar Cookies", "Toll House Bar", "Chicken Philly Cheese Sandwich", "Sourdough French Toast", "Shoestring Fries", "Chicken Adobo", "Sticky Rice", "Sriracha Mayonnaise", "Spicy Mustard Sauce"],
 "Dinner": ["Baby Red Oven Roasted Potatoes", "Jasmine Rice", "Roasted Celery Soup", "Watermelon", "Black Beans", "Three Cheese Pizza", "Asparagus & Ricotta Sauce", "Pasta Spaghetti", "Roasted Chicken & Zucchini Marinara", "Farfalle Pasta", "Apple Crisp", "Pesto Bread", "Grilled Chicken & Bean Burrito", "Rice with Cilantro & Onions", "Steamed Broccoli & Cauliflower", "Tortilla Chips & Salsa", "Teriyaki Beef Rice Bowl", "Vegetable Teriyaki Rice Bowl", "Vegetable Medley Stir Fry", "California Club Roll"],
+}
+},
+],
+},
+{
+"date": "2026-07-12",
+"dining_halls": [
+{
+"name": "Carrillo",
+"meals": {
+"Lunch": ["Sliced Ham", "Tuna Salad", "Sliced Cheddar Cheese", "Sliced Swiss Cheese", "Sticky Rice", "Sesame Beef with Broccoli", "Vegetable Chop Suey", "Wild Arugula & Romaine Salad", "Spinach Pasta Salad", "Chicken Soft Taco", "Fresh Vegetable Medley", "Refried Beans", "Spanish Rice", "Ham & Pineapple", "Cheese Pizza", "Garlic Pizza Sticks with Marinara", "Thai Tom Ka Soup w/Tofu", "Cheeseburger", "Gardenburger", "Grilled Cheese on Sourdough", "Steak Fries", "Baked Potato", "Baked Sweet Potato", "Basmati Rice", "Bread Olive", "Brown Butter Peanut ButterCookie(w/nut(v", "Cheesecake Walnut Bar (w/nuts)"],
+"Dinner": ["Sticky Rice", "Teriyaki Beef", "Tofu Teriyaki Rice Bowl", "Minestrone Soup", "Caesar Salad", "Chicken Cacciatore", "Buttered Noodles", "Vegetable Turnover", "Baked Acorn Squash", "Peas", "Penne Pasta", "Red Clam Sauce", "Linguini Pasta", "Fresh Basil Pesto", "Baked Potato", "Baked Sweet Potato", "Brown Rice", "Ham & Pineapple", "Cheese Pizza", "Garlic Pizza Sticks with Marinara", "Whole Wheat Roll", "Blueberry Crumb Pie"],
+}
+},
+{
+"name": "De La Guerra",
+"meals": {
+"Breakfast": ["Cream of Wheat w/Flaxseed", "Breakfast Quesadilla", "Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Sausage Patty", "Hash Browns", "Waffle", "Multi-Grain Waffle", "Raisin Buttermilk Scone", "Sweet Salvadorian Bread", "Bagels-Breads & Cereals- See for Choices"],
+"Lunch": ["Coconut Carrot Soup", "Grilled Vegetable Wrap", "Steamed Carrots", "Baked Potato", "Beef Chorizo Quesadilla", "Bean Rice & Cheese Burrito", "Spanish Rice", "Refried Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Tomato & Roasted Corn Salsa", "Pepperoni Pizza", "Tomato Pesto Pizza", "Herb Breadsticks", "Sesame Chicken Stir Fry w/Brown Rice", "Tofu Vegetable Stir Fry", "Long Grain Rice", "Brown Rice", "Char Burger", "Veggie Burger on Whole Wheat Bun", "Grilled Turkey Pastrami & Swiss Sandwich", "Shoestring French Fries", "Curried Chicken Salad", "Wild Rice Garden Salad", "Sour Cream & Chive Roll", "Pecan Pie Bar (w/nuts)", "Mexican Wedding Cookie"],
+"Dinner": ["Vegetable Soup", "BBQ Pork Spare Ribs", "Baked Beans", "Corn on the Cob", "Steamed Red Potatoes with Parsley", "Baked Potato", "Chicken Sope", "Vegetable Empanada", "Spanish Rice", "Refried Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Tomato & Roasted Corn Salsa", "Pepperoni Pizza", "Tomato Pesto Pizza", "Herb Breadsticks", "Turkey Marinara", "Wheat Penne Pasta", "Creamy Pesto Sauce", "Rotini Pasta", "Long Grain Rice", "Brown Rice", "Tossed Italian Greens", "Jalapeno Cornbread", "Cream Cheese Pie"],
+}
+},
+{
+"name": "Ortega",
+"meals": {
+}
+},
+{
+"name": "Portola",
+"meals": {
+"Breakfast": ["Organic Nonfat Plain Greek Yogurt", "Strawberry Yogurt", "Fresh Strawberry", "Honeydew Melon", "Pineapple", "Sliced Cantalope", "Make Your Own Waffle", "Cinnamon Maple Granola", "Buckwheat Almond Parfait (w/nuts)", "8 Grain Hot Cereal", "Baby Spinach", "Flour Tortilla", "Blueberry Coffee Cake", "Sticky Pecan Buns (w/nuts)", "Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Whole Wheat Banana Pancakes", "Sausage Links", "Roasted Red Breakfast Potatoes", "Fresh Sauteed Spinach"],
+"Lunch": ["Golden Beet Salad w/Orange Miso", "Tuna Melt", "Baked Sweet Potato", "Brown Rice", "Potato Cheese Soup", "Watermelon", "Black Beans", "Pepperoni Stromboli with Provolone", "Steamed Broccoli & Cauliflower", "Penne Pasta with Pesto", "Sausage Marinara Sauce", "Linguini Pasta", "Hawaiian Sweet Bread", "Salted Caramel Cupcake", "Oatmeal Chocolate Chip Cookie", "Grilled Turkey Burger", "Teriyaki Beef Rice Bowl", "Malibu Burger", "Whole Wheat Banana Pancakes", "Crinkle Cut French Fries", "Housemade Ketchup", "Fire Roasted Tomato Salsa"],
+"Dinner": ["Baked Sweet Potato", "Brown Rice", "Spicy Navy Bean Soup", "Italian Sausage & Basil Stromboli", "Penne w/Butternut Squash Sauce", "Rigatoni Mozzarella", "Watermelon", "Black Beans", "Cream Cheese Pie", "Whole Wheat French Bread", "Latin Bowl with Chicken", "Latin Bowl", "Roasted Broccoli", "Pork Loin with Green Curry", "Brown Rice", "Thai Vegetable & Noodle", "Seasoned Vegetable Medley", "California Club Roll"],
 }
 },
 ],
