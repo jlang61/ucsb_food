@@ -1,35 +1,5 @@
 const diningMenu = [
 {
-"date": "2026-08-14",
-"dining_halls": [
-{
-"name": "Carrillo",
-"meals": {
-"Dinner": ["Sliced Turkey Pastrami", "Sliced Genoa Salami", "Sliced Cheddar Cheese", "Sliced Provolone Cheese", "Sticky Rice", "Sweet & Sour Almond & Tofu (w/nuts)", "Sweet and Sour Pork", "Chicken Congee", "Rotisserie Chicken", "Vegetable Stir Fry", "Carrots with Lemon Butter", "Risotto with Fresh Vegetables", "Caesar Salad", "Whole Wheat Penne Pasta", "Chicken with White Wine Garlic Sauce", "Eggplant & Marinara with Pasta", "Baked Potato", "Baked Sweet Potato", "Jasmine Rice", "Bacon Tomato Basil", "Vegetable & Jalapeno Pizza on White", "Traditional Cheese Pizza on Wheat", "Ricotta Pepper Bread", "Toll House Walnut Pie (w/nuts)"],
-}
-},
-{
-"name": "De La Guerra",
-"meals": {
-"Breakfast": ["Arroz con Leche", "Apple Crepe", "Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Grilled Ham", "Hash Browns", "Waffle", "Multi-Grain Waffle", "Morning Glory Muffin", "Banana Coffee Cake", "Bagels-Breads & Cereals- See for Choices"],
-"Lunch": ["New England Clam Chowder", "Grilled Chicken Vincenza Sandwich", "Fresh Vegetables Saute with Garlic", "Baked Potato", "Baked Sweet Potato", "Italian Fish Taco", "Bean & Cheese Nachos", "White Spanish Rice", "Navy White Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Papaya Salsa", "Bacon Jalapeno Pizza", "Veggie Pizza w/Cilantro Pesto", "Herb Breadsticks", "Pasta Carbonara", "Cellentaini Pasta", "Tomato Cream Sauce", "Long Grain Rice", "Brown Rice", "Char Burger", "Grilled Mozzarella & Tomato on Wheat", "Malibu Burger", "Steak Fries", "Santa Fe Salad with Chicken", "German Potato Salad", "Garlic Roll", "M&M Cookie (w/nuts)", "Rice Krispie Treat"],
-"Dinner": ["Mushroom Barley Soup", "Catfish with Red Curry Sauce", "Vegetable Medley", "Baked Potato", "Baked Sweet Potato", "Beef Fajita", "Chipotle Tempeh Tacos", "White Spanish Rice", "Navy White Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Roasted Tomato and Chile Salsa", "Bacon Jalapeno Pizza", "Veggie Pizza w/Cilantro Pesto", "Herb Breadsticks", "Chicken Madras", "Lentil & Bean Madras", "Long Grain Rice", "Brown Rice", "Kale Caesar Salad", "Onion Roll", "French Peach Crumb Pie"],
-}
-},
-{
-"name": "Ortega",
-"meals": {
-}
-},
-{
-"name": "Portola",
-"meals": {
-"Dinner": ["Baked Sweet Potato", "Quinoa", "Miso Broth Soup with Spinach", "Sausage Mushroom Pizza", "Penne w/Butternut Squash Sauce", "Marinara Sauce with Chicken", "Linguini Pasta", "Watermelon", "Black Beans", "Hawaiian Sweet Bread", "Chocolate Chocolate Chip Bar", "Chicken and Black Bean Burrito", "Bean Rice & Cheese Burrito", "Tortilla Chips & Salsa", "Pinto Beans", "Fresh Cauliflower & Carrots", "Pork Spare Ribs", "Thai BBQ Sauce", "Sticky Rice", "Spicy Hunan Cauliflower", "Spicy Shrimp Sushi"],
-}
-},
-],
-},
-{
 "date": "2026-08-15",
 "dining_halls": [
 {
@@ -201,6 +171,34 @@ const diningMenu = [
 "Breakfast": ["7 Grain Hot Cereal", "Sausage & Cheese Biscuit", "Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Bacon", "Hash Browns", "Waffle", "Multi-Grain Waffle", "Chocolate Bread", "Strawberry Muffin", "Bagels-Breads & Cereals- See for Choices"],
 "Lunch": ["Tortilla Soup", "Philly Cheese Steak Sandwich", "Sauteed Swiss Chard with Garlic", "Baked Potato", "Chicken Soft Taco", "Potato "Chorizo" Burrito", "Yellow Rice", "Black Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Fresh Tomato Salsa", "Mac and Cheese Pizza", "Tomato Basil Pizza on Wheat", "Herb Breadsticks", "Peruvian Arroz Chaufa", "Brazilian Tofu Moqueca", "Long Grain Rice", "Brown Rice", "Char Burger", "Malibu Burger", "Grilled Mozzarella & Basil Sandwich", "Shoestring French Fries", "Japanese Noodle Salad", "Pearl Couscous Salad", "Focaccia Bread", "Thai Sticky Rice with Mango", "Orange Glazed Cookie"],
 "Dinner": ["Spicy Navy Bean Soup", "Baked Chicken", "Creole Beans and Rice", "Potatoes Au Gratin", "Vegetable Medley", "Baked Potato", "Beef Birria", "Vegetable Soft Taco", "Yellow Rice", "Black Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Fresh Tomato Salsa", "Mac and Cheese Pizza", "Tomato Basil Pizza on Wheat", "Herb Breadsticks", "Chicken Marinara", "Fettuccine Pasta", "Rotini Pasta", "Cheese Sauce", "Long Grain Rice", "Brown Rice", "Kale Arugula Salad with Cranberry", "Roasted Garlic Bread", "Boston Cream Pie"],
+}
+},
+{
+"name": "Ortega",
+"meals": {
+}
+},
+{
+"name": "Portola",
+"meals": {
+}
+},
+],
+},
+{
+"date": "2026-08-21",
+"dining_halls": [
+{
+"name": "Carrillo",
+"meals": {
+}
+},
+{
+"name": "De La Guerra",
+"meals": {
+"Breakfast": ["Oatmeal", "Pancakes", "Cage Free Scrambled Eggs", "Cage Free Scrambled Egg Whites", "Sausage Link", "Diced Potatoes with Onions", "Waffle", "Multi-Grain Waffle", "Whole Wheat Banana Bread", "Cinnamon Muffin", "Bagels-Breads & Cereals- See for Choices"],
+"Lunch": ["Manhattan Clam Chowder", "Pulled Pork Buffalo Style Sandwich", "Cauliflower and Broccoli", "Baked Potato", "Baked Sweet Potato", "Fish and Shrimp Enchilada", "Bean & Cheese Sope", "Rice with Corn & Roasted Chiles", "Pinto Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Avocado Salsa", "Chicken Garlic Pesto Pizza", "Margherita Pizza", "Herb Breadsticks", "Kung Pao Chicken", "Kung Pao Tofu", "Long Grain Rice", "Brown Rice", "Char Burger", "Veggie Burger on Whole Wheat Bun", "Grilled Hot Dog", "Krinkle Cut French Fries", "Chicken & Sundried Tomato Pasta Salad", "Bleu Cheese & Bacon Wedge Salad", "Onion Roll", "Cheesecake Cookie", "Zebra Walnut Bar (w/nuts)"],
+"Dinner": ["Minestrone Soup", "Fish Cake", "Vegetable Risotto", "Roasted Potato Wedges", "Kale Peppers and Garlic", "Baked Potato", "Baked Sweet Potato", "Chicken & Bean Chimichanga", "Grilled Vegetable Tostada", "Rice with Corn & Roasted Chiles", "Pinto Beans", "Flour Tortilla", "Corn Tortilla", "Wheat Tortilla", "Avocado Salsa", "Chicken Garlic Pesto Pizza", "Margherita Pizza", "Herb Breadsticks", "Shrimp Fried Rice", "Dragon Noodles", "Long Grain Rice", "Brown Rice", "Caesar Salad", "Whole Wheat Sourdough Bread", "Marble Cake w/Chocolate Icing"],
 }
 },
 {
